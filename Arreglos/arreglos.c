@@ -11,9 +11,8 @@ printf("Direccion de memoria de 2 flotantes: &temp1: %i,\n&temp2 %i!\n", &temp1,
 printf("Direccion de temp[24]: %i,\n", temp);
 printf("Direccion de &temp[23]: %i,\n", &temp[23]);
 printf("Direccion de &dummy[24]: %i,\n", &dummy);
-temp[0]= 20.5;
-temp[1]= 19.2;
-printf("%d", temp[0]);
 
+  
 return 0;
 }
+
